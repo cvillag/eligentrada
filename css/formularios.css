@@ -1,0 +1,191 @@
+.tituloForm{
+	color: #651FFF;
+	height: 1.2em;
+	padding-top: 0.2em;
+	padding-left: 0.2em;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: syncopate;
+}
+
+
+.formulario{
+	text-align: center;
+	background-color: #DCEDC8;
+	border-radius: 10px;
+	border: 4px solid #8BC34A;
+	padding: 0.4em;
+	margin-bottom:5%;
+}
+
+#formLogin .celdaVal input {
+  width: 100%;
+}
+ 
+ #formLogin .celdaDef{
+	width: 1%;
+}
+
+.row{
+	display: table-row-group;
+	width: 100%;
+}
+
+.celdaDef{
+	display: table-cell;
+	width: 25%;
+	height: 1.6em;
+	margin: 0.4em;
+	padding: 3px;
+	text-align: right;
+}
+
+.celdaMed{
+	display: table-cell;
+	width: 25%;
+	height: 1.6em;
+	margin: 0.4em;
+	padding: 3px;
+}
+.nom input{
+	width: 85%;
+}
+
+.celdaVal{
+	display: table-cell;
+	width: 25%;
+	height: 1.6em;
+	margin: 0.4em;
+	padding: 3px;
+}
+
+.peq input{
+	width: 100%;
+}
+
+.celdaCan{
+	display: table-cell;
+	width: 25%;
+	height: 1.6em;
+	margin: 0.4em;
+	padding: 3px;
+	text-align: left;
+}
+
+.grande{
+	width: 70%;
+    text-align: left;
+}
+
+.pequena{
+	width: 30%;
+}
+
+.row input, .row textarea, .row select{
+	color: #651FFF;
+	border-style: solid;
+	border-color: #8BC34A;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#plus{
+	margin-left: 2%;
+	width: 30px;
+	float: left;
+}
+
+#delete{
+	margin-left: 92%;
+	width: 30px; 	        	
+}
+
+#plus img, #delete img{
+	width: 20px;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.fileinput-button input{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 152px;
+  height: 28px;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  direction: ltr;
+  cursor: pointer;
+  width: 14em;
+  height: inherit;
+}
+
+.fullRow{
+	display: block;
+	width: 100%;
+	margin: 0.5em;
+}
+
+.pieForm{
+	text-align: center;
+	padding: 0.4em;
+}
+
+.pieForm *{
+	height: 1.5em;
+	margin: 0.2em;
+}
+
+.nota_peq{
+	font-size: 0.8em;
+}
+
+.boton3{
+	background-color: #8BC34A;
+	border-color:  #8BC34A;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #212121;
+	padding: 0.3em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-weight: 700;
+	height: 1.5em;
+}
+
+.boton3:hover{
+	background-color: #651FFF;
+	color: #DCEDC8;
+}
+
+#formReg{
+	float: none;
+	margin: 0 auto;
+}
+
+#fileUpload input[type="submit"] {
+	font-size: 1em;
+	border-style: solid;
+}
+
+.inputFull{
+	width:100%;
+}
+
+.inputLugar{
+	width: 75%;
+}
+
+#fileUpload li{
+	margin: 1em 0;
+}
+
+
+.bot{
+	margin-bottom: 17px;
+}

@@ -1,0 +1,38 @@
+/*Implementa las caracter'isticas de la interfaz definidas en el documento de diseño*/
+
+header{
+	background-color: #8BC34A;
+}
+
+footer{
+	background-color: #8BC34A;
+}
+
+
+#form_busqueda input[type="text"] {
+	font-size: 16px;
+	color: #651FFF;
+	padding: 3px;
+	margin: 3px;
+	border-style: solid;
+	border-color: #8BC34A;
+}
+
+#form_busqueda input[type="submit"] {
+	font-size: 16px;
+	padding: 3px;
+	border-style: solid;
+}
+
+#login_entrar{
+	width: 3em;
+}
+
+#form_busqueda input[type="text"] {
+	border-style: solid;
+	border-radius: 4px;
+}
+
+#form_busqueda input[type="submit"] {
+	border-style: solid;
+}

@@ -1,0 +1,228 @@
+#formEvento{
+	padding:5px 10px;
+	margin:0;
+}
+
+#colPoster, #mapEvento{
+	padding: 5px 10px;
+}
+
+nav:after{
+	clear: both;
+}
+
+.page-wrapper{
+	float: left;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#navG{
+	float: left;
+  	position: relative;
+  	width: 245px;
+  	margin: 0;
+}
+
+#contenido{
+	position: fixed;
+	top:3.4em;
+	float:left;
+	overflow:auto;
+	max-height: 90%;
+	width:100%;
+	padding: 10px 4px;
+	padding-bottom: 30px;
+}
+
+#form_busqueda{
+	margin-bottom: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+	#cartel img{
+		max-width: 144px;
+		max-height: 144px;
+	}
+
+	#cartel{
+		width: 144px;
+		height: 144px;
+	}
+}
+
+#nav_misentradas{
+	background-color: #8BC34A;
+	border-radius: 8px;
+	border: 4px solid #8BC34A; 
+	text-align: center;
+  	margin-top: 5px;
+}
+
+#cont_misentradas{
+	border: 4px solid #8BC34A;
+	border-radius: 10px;
+	background-color: #8BC34A;
+	padding: 0 10px;
+	margin: 5px;
+  	width: 75%;
+}
+
+#grid_conciertos{
+	width:100%;
+	float:left;
+	margin-left:2em;
+	margin-right:2em;
+	margin-top:2.5em;
+}
+
+#resultadosBusqueda{
+	border: 4px solid #8BC34A;
+	border-radius: 10px;
+	background-color: #8BC34A;
+	padding: 0 10px;
+	margin: 5px;
+}
+
+#resultadosBusqueda h2{
+	font-size: 1.2em;
+	font-family: syncopate;
+	color: #651FFF;
+	font-weight: 700;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.celdaBusqueda{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.celdaCrear{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.celdaEditar{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.celda{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.celdaBusqueda:hover{
+	padding: 10px;
+	overflow: hidden;
+	background: rgba(101,31,255,0.5);
+	border-radius: 20px;
+}
+
+.celdaBusqueda img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 2px;
+}
+
+.noResults{
+	float: left;
+	height: 50px;
+	padding: 10px;
+	width: 80%
+}
+
+.imgEvBusqueda{
+	float: left;
+	width: 20%;
+	height: 150px;
+}
+
+.infoEvBusqueda{
+	float: left;
+	height: 150px;
+	padding: 10px;
+	width: 80%
+}
+
+.infoEvBusqueda h3, .noResults h3{
+	font-family: syncopate;
+	color: #651FFF;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.infoEvBusqueda p, .infoEvBusqueda span{
+	margin: 15px 0px; 
+}
+
+.infoEvBusqueda span{
+	color: #6200EA;
+	padding: 3px;
+	background-color: #8BC34A;
+	border-color: #8BC34A;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.c2 a{
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+
+#errorUpload{
+	display: none;
+	width: 100%;
+}
+
+.spanButton{
+	color: #6200EA;
+	padding: 3px;
+	background-color: #8BC34A;
+	border-color: #8BC34A;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor:default;
+}
+
+.spanButton:hover{
+	color: #8BC34A;
+	padding: 3px;
+	background-color: #6200EA;
+	border-color: #8BC34A;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor:default;
+}
+
+input[type="radio"]{ display: none; }
+ 
+input[type="radio"] + label span{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(../img/radio.png) left 1px no-repeat;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor:pointer;
+}
+ 
+input[type="radio"]:checked + label span{
+    background: url(../img/radio-check.png) left top no-repeat;
+}
+
+#entradasVendidas{
+	width: 100%;
+}
+
+table#entradasVendidas th {
+    padding-bottom: 5px;
+  	border-bottom: 1px solid #6200EA;
+}
+
+table#entradasVendidas td {
+    padding-top: 5px;
+}

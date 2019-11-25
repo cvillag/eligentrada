@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#formRegAdmin{
+	display: none;
+}
+
+.botonBorrar{
+	float: right;
+	height: 60%;
+	font-size: 0.6em;
+}

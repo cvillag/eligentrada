@@ -1,0 +1,144 @@
+/*Posibilita la estructuración de la página web: cabecera, barra de navegación, pie de página.
+Debe permitir que la página web se adapte a tres distintos tipos de dispositivos en función de su ancho en píxeles
+	desktop: display >= 992px
+	tablet: 768px <= display < 992px
+	phone: display < 768px
+*/
+/*desktop: display >= 992px*/
+@media (min-width: 992px ){
+	nav{
+		width:20%;
+	}
+	
+	
+}
+/*tablet: 768px <= display < 992px*/
+@media (min-width: 768px) and (max-width: 992px){
+	nav{
+		width:60%;
+	}
+}
+/*phone: display < 768px*/
+@media  (max-width: 768px){
+	nav{
+		width:60%;
+	}
+	.main{
+		width:90%;
+	}
+	.col_der{
+		width:35%;
+	}
+	.contenedor_izq{
+		width:60%;
+	}
+}
+
+body, html{
+	position: absolute;
+	height: 100%;
+}
+
+header{
+	position: fixed;
+	top:0;
+	width:100%;
+	min-height:2em;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width:100%;
+	min-height:2em;
+	text-align: center;
+}
+
+header #logo {
+	height:38px;
+	margin:0.4em;
+	float: left;
+}
+
+#login{
+	float:right;
+	margin:0.8em;
+}
+
+body{
+	margin:auto;
+}
+
+#login_form{
+	width: 230px;
+	position:fixed;
+	right:0.2em;
+	top:3.4em;
+	z-index:1;
+	padding: 0.6em;
+	display: none;
+}
+
+nav{
+	float:left;
+	position:relative;
+	margin:0.8em;
+	margin-bottom: 2.5%
+}
+
+.main{
+	float:left;
+	position:relative;
+	margin: 1em;
+}
+
+#form_busqueda{
+	float:left;
+	width:100%;
+}
+
+#grid_conciertos .concierto{
+	height: 16em;
+	width: 16em;
+	float:left;
+	margin-right:1em;
+	margin-top: 1em;
+	list-style: none;
+	position:relative;
+}
+
+.concierto img{
+	height: 16em;
+	width: 16em;
+}
+
+#form_busqueda input[type="text"] {
+	min-width:75%;
+	height:43px;
+	font-size: 1em;
+	padding: 0.2em;
+	margin: 0.2em;
+	border-style: solid;
+	border-radius: 4px;
+}
+
+#form_busqueda input[type="submit"] {
+	min-width:17%;
+	height:2.7em;
+	font-size: 1em;
+	padding: 0.3em;
+	border-style: solid;
+}
+
+footer img{
+	max-height: 25px;
+  max-width: 25px;
+  margin-top: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  top: 5px;
+}
+
+#userMenu li{
+	padding: 0.2em 0;
+}
